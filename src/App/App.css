@@ -1,0 +1,56 @@
+:root{
+    --Orange:hsl(25, 97%, 53%);
+    --White:hsl(0, 0%, 100%);
+    --LightGrey:hsl(217, 12%, 63%);
+    --MediumGrey:hsl(216, 12%, 54%);
+    --LightDarkBlue:hsl(210, 26%, 28%);
+    --DarkBlue:hsl(213, 19%, 18%);
+    --VeryDarkBlue:hsl(216, 12%, 8%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: var(--VeryDarkBlue);
+}
+
+.Container{
+    background-color: var(--DarkBlue);
+    margin: 300px auto;
+    padding: 50px 40px;
+    height: 340px;
+    width: 340px;
+    border-radius: 25px;
+    color: white;
+}
+
+.img-star{
+    background-color: var(--LightDarkBlue);
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-numbers{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+;
+}

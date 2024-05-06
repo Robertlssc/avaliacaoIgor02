@@ -1,0 +1,40 @@
+:root{
+    --Orange:hsl(25, 97%, 53%);
+    --White:hsl(0, 0%, 100%);
+    --LightGrey:hsl(217, 12%, 63%);
+    --MediumGrey:hsl(216, 12%, 54%);
+    --LightDarkBlue:hsl(210, 26%, 28%);
+    --DarkBlue:hsl(213, 19%, 18%);
+    --VeryDarkBlue:hsl(216, 12%, 8%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.btn-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-numbers{
+    background-color: var(--LightDarkBlue);
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: var(--LightGrey);
+    font-size: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-numbers:hover{
+    background-color: var(--Orange);
+    color: var(--White);
+}
